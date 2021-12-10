@@ -1,0 +1,10 @@
+ - Exercice de montée en compétence sur le Framework Symfony
+
+    - Création de la base de donnée et des tables à partir du MCD
+    - Mise en place de donnée Fake 
+    - Pagination 
+    - Filtres 
+    - CRUD
+    - Administration des Entitées 
+    - Connexion / Deconnexion 
+    - Rôles et Accès 

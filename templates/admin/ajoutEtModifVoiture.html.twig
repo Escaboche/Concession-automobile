@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modification{% endblock %}
+
+{% block MonTitre %}
+{% if isExiste %}
+    <p>Nouvelle Voiture</p>
+{% else %}
+    Voiture {{voiture.immatriculation}}
+{% endif %}
+{% endblock %}
+
+{% block body %}
+{{form_start(formAdd)}}
+{{form_widget(formAdd)}}
+<a href="{{path('admin')}}" class="btn btn-info">Retour</a>
+<input type="submit" value="Soumettre" class="btn btn-success">
+{{form_end(formAdd)}}
+{% endblock %}
